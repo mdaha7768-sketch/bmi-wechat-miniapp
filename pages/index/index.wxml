@@ -1,0 +1,26 @@
+<view class="container">
+  <view class="header">
+    <text class="heading">BMI 计算器</text>
+    <text class="subtitle">输入身高和体重，了解身体质量指数</text>
+  </view>
+  <view class="panel">
+    <view class="field">
+      <text class="label">身高（cm）</text>
+      <input class="input" type="digit" value="{{height}}" bindinput="onHeightInput" placeholder="例如 175" maxlength="8" />
+    </view>
+    <view class="field">
+      <text class="label">体重（kg）</text>
+      <input class="input" type="digit" value="{{weight}}" bindinput="onWeightInput" placeholder="例如 65" maxlength="8" />
+    </view>
+    <text wx:if="{{error}}" class="error">{{error}}</text>
+    <button class="primary" bindtap="calculate">计算 BMI</button>
+    <button class="reset" bindtap="reset">清空</button>
+  </view>
+  <view wx:if="{{hasResult}}" class="result">
+    <text class="result-title">你的 BMI</text>
+    <text class="bmi">{{bmi}}</text>
+    <text class="category">{{category}}</text>
+    <text class="tip">{{tip}}</text>
+  </view>
+  <view class="note">参考中国成年人 BMI 分类：偏瘦 &lt;18.5；正常 18.5–23.9；超重 24–27.9；肥胖 ≥28。BMI 不适用于所有人群，不能单独用于诊断。</view>
+</view>
