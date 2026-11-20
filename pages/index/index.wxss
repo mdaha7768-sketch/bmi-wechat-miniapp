@@ -1,0 +1,18 @@
+.container { padding: 48rpx 32rpx 64rpx; }
+.header { margin: 18rpx 0 42rpx; }
+.heading { display: block; font-size: 52rpx; font-weight: 700; }
+.subtitle { display: block; margin-top: 14rpx; color: #687386; font-size: 27rpx; }
+.panel, .result { background: #fff; border-radius: 24rpx; padding: 38rpx 32rpx; box-shadow: 0 8rpx 30rpx rgba(31,50,90,.05); }
+.field { margin-bottom: 32rpx; }
+.label { display: block; font-size: 29rpx; margin-bottom: 16rpx; font-weight: 600; }
+.input { height: 88rpx; padding: 0 24rpx; background: #f5f7fb; border-radius: 14rpx; font-size: 32rpx; }
+.error { display: block; color: #c73535; font-size: 25rpx; margin-bottom: 22rpx; }
+.primary { background: #2563eb; color: white; border-radius: 14rpx; font-size: 30rpx; margin-top: 16rpx; }
+.reset { background: #eef2f7; color: #475569; border-radius: 14rpx; font-size: 28rpx; margin-top: 18rpx; }
+.result { margin-top: 28rpx; text-align: center; }
+.result-title, .category, .tip, .bmi { display: block; }
+.result-title { font-size: 27rpx; color: #64748b; }
+.bmi { font-size: 84rpx; font-weight: 700; margin: 12rpx 0; color: #2563eb; }
+.category { font-size: 34rpx; font-weight: 600; }
+.tip { margin-top: 20rpx; color: #64748b; font-size: 26rpx; line-height: 1.6; }
+.note { color: #8490a1; font-size: 23rpx; line-height: 1.7; margin: 36rpx 12rpx; }
